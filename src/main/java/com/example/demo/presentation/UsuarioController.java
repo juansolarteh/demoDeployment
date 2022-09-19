@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.example.demo.domain.entity.Usuario;
 import com.example.demo.domain.service.IUsuarioService;
 
-@CrossOrigin(origins = "http://localhost", maxAge = 3600)
+@CrossOrigin
 @RestController
 @RequestMapping("usuario")
 public class UsuarioController {
